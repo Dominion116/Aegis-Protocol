@@ -1,0 +1,54 @@
+
+# Project settings (keep local network settings out of repo)
+**/settings/Mainnet.toml
+**/settings/Testnet.toml
+
+# Clarinet / Clarity artifacts
+.clarinet/
+.clarinet-db/
+clarinet-results/
+contracts/build/
+contracts/artifacts/
+
+# Cache & history
+.cache/
+.cache/**
+history.txt
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Node
+node_modules/
+
+# Coverage
+coverage/
+.nyc_output/
+*.info
+
+# Build / distribution
+dist/
+build/
+out/
+
+# Environment files
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Misc
+costs-reports.json
+config.bat
